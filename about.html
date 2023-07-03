@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+    <style>
+        body {
+            top: 0;
+            left: 0;
+            background-color: bisque;
+        }
+        
+        .navbar {
+            top: 0;
+            left: 0;
+            display: flex;
+            background-color: black;
+            position: relative;
+            text-decoration: none;
+            color: orange;
+            position: sticky;
+            width: 100%;
+            position: fixed;
+        }
+        
+        .navbar a {
+            color: orange;
+            padding: 30px;
+            padding-top: 0px;
+            margin-top: 5px;
+            text-decoration: none;
+        }
+        
+        .navitem {
+            padding-top: 30px;
+            font-size: 20px;
+            display: flex;
+        }
+        
+        .navitem :hover {
+            color: blue;
+            border-radius: 30px;
+        }
+        
+        .navitem li {
+            display: flex;
+        }
+        
+        .active,
+        .navitem li :hover {
+            background: black;
+            border-radius: 4px;
+        }
+        
+        .navitem li :hover .sub-menu-1 {
+            display: block;
+            position: absolute;
+            background-color: rgb(0, 100, 0);
+            margin-top: 15px;
+            margin-left: -15px;
+        }
+        
+        .sub-menu-1 {
+            display: none;
+        }
+        
+        .logo {
+            display: flex;
+        }
+        
+        .webuild {
+            color: white;
+            font-size: 18px;
+        }
+        
+        .p123 {
+            text-align: center;
+            padding-left: 200px;
+        }
+        
+        .a1 {
+            padding-top: 30px;
+            border-radius: 20px;
+        }
+        
+        .row {
+            font-size: 40px;
+            padding-top: 80px;
+            height: 950px;
+            width: 1000px;
+            color: blue;
+            display: flex;
+            text-align: center;
+        }
+        
+        .row img {
+            padding-left: 20px;
+            padding-top: 30px;
+        }
+        
+        .button {
+            background-color: goldenrod;
+            color: white;
+            font-size: 22px;
+            border: 2px solid black;
+            padding: 20px;
+            text-decoration: none;
+            border-radius: 20px;
+        }
+        
+        .button :hover {
+            background-color: orange;
+            border: 2px dotted black;
+            font-size: 22px;
+        }
+        
+        .row1 {
+            padding-top: 70px;
+            font-size: 40px;
+            text-transform: uppercase;
+            padding-left: 30px;
+            display: flex;
+        }
+        
+        .a2 {
+            display: flex;
+            background-color: orange;
+            width: 600px;
+        }
+        
+        .a3 {
+            text-align: center;
+            font-size: 40px;
+        }
+        
+        .a4 {
+            display: flex;
+            padding-left: 30px;
+        }
+        
+        .col1 {
+            padding: 50px;
+            padding-right: 40px;
+        }
+        
+        .buttton {
+            font-size: 18px;
+            color: white;
+            padding-left: 30px;
+            background-color: blue;
+            border-radius: 30px;
+            margin-left: 50px;
+            text-decoration: none;
+        }
+        
+        .buttton :hover {
+            font-size: 18px;
+            color: white;
+            padding-left: 30px;
+            background-color: orange;
+            border-radius: 30px;
+            margin-left: 50px;
+        }
+        
+        .img {
+            padding-left: 90px;
+        }
+        
+        .img1 {
+            padding-left: 30px;
+        }
+        
+        .row3 {
+            display: flex;
+        }
+        
+        .callback {
+            padding-right: 100px;
+            margin: 40px;
+            height: 400px;
+            width: 250px;
+            padding-left: 90px;
+        }
+        
+        .submit {
+            background-color: orange;
+            font-size: 30px;
+            text-decoration: none;
+            border-radius: 20px;
+        }
+        
+        .submit :hover {
+            background-color: green;
+        }
+        
+        .b1 {
+            text-align: center;
+        }
+        
+        .row4 {
+            display: flex;
+        }
+        
+        .main1 {
+            padding-left: 20px;
+        }
+        
+        .b2 {
+            color: orange;
+        }
+        
+        .container {
+            display: flex;
+            color: white;
+            background-color: black;
+        }
+        
+        .footer-col2 {
+            padding-left: 120px;
+        }
+        
+        .footer-col3 {
+            padding-left: 80px;
+        }
+        
+        .input-tag {
+            height: 24px;
+            width: 200px;
+            border-radius: 20px;
+        }
+        
+        #abc {
+            padding-top: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://th.bing.com/th/id/OIP.hGLqcAgPs6pYoiq5f9tEZwHaHa?w=189&h=190&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="" width="40px" height="80px">
+                <div class="webuild">
+                    <h1>WEBUILD</h1>
+
+                </div>
+            </div>
+            <div class="navitem">
+                <li>
+                    <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>
+                        HOME</a>
+                </li>
+
+
+                <li><a href="about.html"><i class="fa fa user"></i> ABOUT</a></li>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li>
+                            <a href="#">Mission</a>
+                        </li>
+                        <li>
+                            <a href="#">Vision</a>
+                        </li>
+                        <li>
+                            <a href="#">Team</a>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+
+                <li> <a href="services.html"> SERVICES</a></li>
+
+
+                <li><a href="pages.html"> PAGES</a></li>
+
+                <li><a href="contact.html"> CONTACT</a></li>
+            </div>
+            <form action="search" class="a1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi-search" viewBox="0 0 16 16" id="abc">
+                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                  </svg>
+                <input type="text" class="input-tag" placeholder="Search Here..." name="search">
+
+                <button class=" btn ">SEARCH</button>
+
+
+            </form>
+
+
+
+
+        </div>
+
+
+    </div>
+    <div class="row1 ">
+        <div>
+
+            <h3>We Are
+                <span style="color: orange "> The Leader</span> In <br> Construction <br> Company...</h3>
+            <h5 style="font-size: 25px ">TEMPOR ERAT ELITR AT REBUM AT AT CLITA. <br> DIAM DOLOR DIAM IPSUM TEMPOR SIT DIAM <br> AMET DIAM ET EOS LABORE</h5>
+            <p style="font-size: 16px; ">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus
+                clita duo justo et tempor</p>
+            <div class="a2 " style="font-size: 18px; ">
+                <ol>
+
+                    <li>Perfect Planning</li>
+                    <li>Professional Workers </li>
+                    <li>First Working Process</li>
+                </ol>
+
+
+                <ol>
+                    <li>Perfect Planning </li>
+                    <li>Professional Workers</li>
+                    <li>First Working Process</li>
+
+                </ol>
+
+
+
+            </div>
+
+            <p style="font-size: 16px ">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor <br> diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet <br> diam et eos labore</p>
+            <img src="img/signature.jpeg " alt=" ">
+
+
+        </div>
+        <div>
+            <img src="img/about.jpeg " alt=" " width="500px " height="700px ">
+
+        </div>
+
+
+
+
+    </div>
+    <div class="row2 ">
+        <div class="a3 ">
+            <h3>WE ROVIDE <span style="color:orange "> THE BEST</span> <br> CONSTRUCTION SERVICES</h3>
+
+        </div>
+        <div class="a4 ">
+            <div class="col1 ">
+                <img src="img/portfolio-3.jpeg " alt=" " width="300px " height="200px "><br>
+                <img class="img " src="https://th.bing.com/th?id=OIP.ROXbM6dBdLbL6yZCsUS8WAHaJQ&w=223&h=279&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2 " alt=" " width="100px ">
+                <h2 class="img1 ">BUILDING <br> CONSTRUCTION.</h2>
+                <p style=" font-size: 19px; " class="img1 ">Duo dolore et diam sed ipsum <br> stet amet duo diam. Rebum <br> amet ut amet sed erat sed sed <br> amet magna elitr amet kasd <br> diam duo
+
+                </p>
+                <a href=" " class="buttton "> READ MORE &#10132;</a>
+
+
+            </div>
+            <div class="col1 ">
+                <img src="img/service-2.jpeg " alt=" " width="300px " height="200px "> <br>
+                <img class="img " src="https://th.bing.com/th?id=OIP.fEAkEkNdE1aOcAy1Cpmh5QHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2 " alt=" " width="100px ">
+                <h2 class="img1 ">HOUSE RENOVATION.</h2>
+                <p style=" font-size: 19px; " class="img1 " ">Duo dolore et diam sed ipsum <br> stet amet duo diam. Rebum <br> amet ut amet sed erat sed sed <br> amet magna elitr amet kasd <br> diam duo
+
+                    </p>
+                    <a href=" " class="buttton "> READ MORE &#10132;</a>
+
+            </div>
+            <div class="col1 ">
+                <img src="img/service-3.jpeg " alt=" " width="300px " height="200x ">
+                <img class="img " src="https://th.bing.com/th/id/OIP.xqXj4KPmdLnHoYDyCJ9OGgHaHa?pid=ImgDet&w=191&h=191&c=7&dpr=1.5 " alt=" " width="100px ">
+                <h2 class="img1 ">ARCHITECTURE <br> DESIGN.</h2>
+                <p style=" font-size: 19px; " class="img1 ">Duo dolore et diam sed ipsum <br> stet amet duo diam. Rebum <br> amet ut amet sed erat sed sed <br> amet magna elitr amet kasd <br> diam duo
+
+                </p>
+                <a href=" " class="buttton "> READ MORE &#10132;</a>
+
+            </div>
+
+        </div>
+        <div class=" a4 ">
+            <div class=" col1 ">
+                <img src="img\service-4.jpeg " width=" 300 px " height=" 200px "> <br>
+                <img class=" img " src=" https://th.bing.com/th/id/OIP.cRgm7IKGzvCHtiZZoQ_OjAHaHa?w=115&h=128&c=7&r=0&o=5&dpr=1.5&pid=1.7 " alt=" " width=" 100px ">
+                <h2 class="img1 ">INTERIOR DESIGN.</h2>
+                <p style=" font-size: 19px; " class="img1 ">Duo dolore et diam sed ipsum <br> stet amet duo diam. Rebum <br> amet ut amet sed erat sed sed <br> amet magna elitr amet kasd <br> diam duo
+
+                </p>
+                <a href=" " class="buttton "> READ MORE &#10132;</a>
+
+
+            </div>
+            <div class=" col1 ">
+                <img src="img\service-5.jpeg " width=" 300 px " height=" 200px "> <br>
+                <img class=" img " src=" https://th.bing.com/th/id/OIP.gDm9MR8vZYxQ3NLGP6AsuwHaEu?w=294&h=187&c=7&r=0&o=5&dpr=1.5&pid=1.7 " alt=" " width=" 150px ">
+                <h2 class="img1 ">FIXING & SUPPORT.</h2>
+                <p style=" font-size: 19px; " class="img1 ">Duo dolore et diam sed ipsum <br> stet amet duo diam. Rebum <br> amet ut amet sed erat sed sed <br> amet magna elitr amet kasd <br> diam duo
+
+                </p>
+                <a href=" " class="buttton "> READ MORE &#10132;</a>
+
+
+
+
+            </div>
+            <div class=" col1 ">
+                <img src="img\service-6.jpeg " width=" 300 px " height=" 200px "> <br>
+                <img class=" img " src="https://th.bing.com/th?id=OIP.8zDCskv42y8WqCuAGC0k2wHaGc&w=268&h=233&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2 " alt=" " width=" 150px ">
+                <h2 class="img1 ">PAINTING..</h2>
+                <p style=" font-size: 19px; " class="img1 ">Duo dolore et diam sed ipsum <br> stet amet duo diam. Rebum <br> amet ut amet sed erat sed sed <br> amet magna elitr amet kasd <br> diam duo
+
+                </p>
+                <a href=" " class="buttton "> READ MORE &#10132;</a>
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class=" row3 ">
+        <div class=" col3 ">
+            <h1 style=" font-size : 50px ">REQUEST A <br> CALL BACK</h1>
+            <p style=" font-size : 20px ">Nonumy ipsum amet tempor takimata vero ea elitr. Diam diam ut et eos duo duo sed. Lorem elitr sadipscing eos et ut et stet justo, sit dolore et voluptua labore. Ipsum erat et ea ipsum magna sadipscing lorem. Sit lorem sea sanctus eos. Sanctus
+                sit tempor dolores ipsum stet justo sit erat ea, sed diam sanctus takimata sit. Et at voluptua amet erat justo amet ea ipsum eos, eirmod accusam sea sed ipsum kasd ut.</p> <br><br>
+            <a href=" " class="button "><b>GET A QUATE &#10132;</b></a>
+
+        </div>
+        <div class=" col5 ">
+            <form action=" Submit Request " class=" callback ">
+                <h2 style=" color : orange ">Request callback.</h2>
+                <input type="text " class=" S2 " placeholder="Your Name.. " name="submit "><br><br>
+                <input type="text " class=" S2 " placeholder="Your Email. " name="search "><br><br>
+                <input type="text " class=" S2 " placeholder="CallBack Date " name="search "> <br><br>
+                <input type="text " class=" S2 " placeholder="Callback Time " name="search "><br><br>
+                <input type="text " class=" S2 " placeholder="Massage " name="search "><br><br>
+                <a href=" Submit " class=" submit ">Submit Request &#10132;</a>
+
+
+
+
+
+
+
+            </form>
+
+
+        </div>
+
+
+    </div>
+    <div class=" main ">
+        <h3 style=" font-size : 50px " class=" b1 ">SOME OF OUR<span style="color:orange "> POPULAR</span> <br> DREAM PROJECTS</h3>
+        <div class=" row4 ">
+            <div class=" col1 ">
+                <img src="img/portfolio-1.jpeg " alt=" " width=" 500px ">
+                <h1>Project Name</h1>
+                <h3 style=" color : green "> &#10132; 123 streat,New Delhi, India</h3>
+            </div>
+            <div class=" col1 ">
+                <img src="img/portfolio-3.jpeg " alt=" " width=" 500px ">
+                <h1>Project Name</h1>
+                <h3 style=" color : green "> &#10132; 123 streat,New Delhi, India</h3>
+            </div>
+        </div>
+        <div class=" row4 ">
+            <div class=" col1 ">
+                <img src="img/portfolio-6.jpeg " alt=" " width=" 500px ">
+                <h1>Project Name</h1>
+                <h3 style=" color : green "> &#10132; 123 streat,New Delhi, India</h3>
+
+            </div>
+            <div class=" col1 ">
+                <img src="img/portfolio-5.jpeg " alt=" " width=" 500px ">
+                <h1>Project Name</h1>
+                <h3 style=" color : green "> &#10132; 123 streat,New Delhi, India</h3>
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <div class=" main1 ">
+        <h3 style=" font-size : 50px " class=" b1 ">WE ARE<span style="color:orange "> PROFETIONAL & EXPERT</span> <br> WORKERS.</h3>
+
+        <div class=" row4 ">
+            <div class=" col1 ">
+                <img src="img/team-1.jpeg " alt=" " width=" 300px ">
+                <h1>ADAM PHILLIPS</h1>
+                <h3 style=" color : green "> &#10132; CEO and Founder</h3>
+
+
+
+            </div>
+            <div class=" col1 ">
+                <img src="img/team-2.jpeg " alt=" " width=" 300px ">
+                <h1>DYLAN ADAMS</h1>
+                <h3 style=" color : green "> &#10132; Civil Engineer</h3>
+
+
+
+            </div>
+            <div class=" col1 ">
+                <img src="img/team-3.jpeg " alt=" " width=" 300px ">
+                <h1>JHON DHOE</h1>
+                <h3 style=" color : green "> &#10132;Interior Designer </h3>
+
+
+
+            </div>
+
+        </div>
+        <div class=" col1 ">
+            <img src="img/team-4.jpeg " alt=" " width=" 300px ">
+            <h1>JOSH DUNN</h1>
+            <h3 style=" color : green "> &#10132;PAINTER </h3>
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+    </div>
+    <div class=" main ">
+        <h3 style=" font-size : 50px " class=" b1 ">LATEST<span style="color:orange "> ARTICLES</span> <br> FROM OUR BLOG POST</h3>
+
+
+
+
+        <div class=" row4 ">
+            <div class=" col1 ">
+                <img src="img/blog-1.jpeg " alt=" " width="320px " height="200px "><br>
+                <h2 class="img1 ">REBUM DIAM CLITA <br> LOREM ERAT MAGNA <br> EST ERAT</h2>
+                <a href=" " class="buttton "> READ MORE &#10132;</a>
+
+
+            </div>
+
+            <div class=" col1 ">
+                <img src="img/blog-2.jpeg " alt=" " width="320px " height="200px "><br>
+                <h2 class="img1 ">REBUM DIAM CLITA <br> LOREM ERAT MAGNA <br> EST ERAT</h2>
+                <a href=" " class="buttton "> READ MORE &#10132;</a>
+
+
+            </div>
+            <div class=" col1 ">
+                <img src="img/blog-3.jpeg " alt=" " width="320px " height="200px "><br>
+                <h2 class="img1 ">REBUM DIAM CLITA <br> LOREM ERAT MAGNA <br> EST ERAT</h2>
+                <a href=" " class="buttton "> READ MORE &#10132;</a>
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="container ">
+        <div class=" footer-col1 ">
+            <img src="https://th.bing.com/th?id=OIP.yqvKnWZHX-x6v8FJhYaRsQHaGL&w=273&h=228&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2 " alt=" " width="130px " height="80px ">
+            <h1 style=" font-size : 50px " class=" b2 ">WEBUILD</h1>
+            <p style=" font-size : 20px ">Aliquyam sed elitr elitr erat sed diam ipsum<br> eirmod eos lorem nonumy. Tempor sea ipsum <br> diam sed clita dolore eos dolores magna erat dolore <br> sed stet justo et dolor.</p>
+            <h3 style=" color : gray "> &#10132; 123 Street, New Delhi, India</h3>
+        </div>
+        <div class=" footer-col2 ">
+            <h1>Follow us</h1><br>
+            <ul style=" font-size : 20px ">
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>YouTube</li>
+                <li>linkedIn</li>
+            </ul>
+            <hr>
+
+        </div>
+        <div class=" footer-col3 ">
+            <h1>QUICK LINKS</h1><br>
+            <ul style=" font-size : 20px ">
+                <li>HOME</li>
+                <li>ABOUT US</li>
+                <li>OUR SERVICES</li>
+                <li>MEET THE TEAM</li>
+                <li>CONTACT US</li>
+            </ul>
+            <hr>
+
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

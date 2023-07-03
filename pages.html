@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pages</title>
+    <style>
+        .row4 {
+            display: flex;
+            background-color: antiquewhite;
+        }
+        
+        .col1 {
+            padding: 20px;
+            padding-left: 40px;
+            background-color: bisque;
+        }
+        
+        .b1 {
+            text-align: center;
+        }
+        
+        .b2 {
+            padding-left: 500px;
+        }
+        
+        .row5 {}
+        
+        .navbar {
+            top: 0;
+            left: 0;
+            display: flex;
+            background-color: black;
+            position: relative;
+            text-decoration: none;
+            color: orange;
+            position: sticky;
+            width: 100%;
+            position: fixed;
+        }
+        
+        .navbar a {
+            color: orange;
+            padding: 30px;
+            padding-top: 0px;
+            margin-top: 5px;
+            text-decoration: none;
+        }
+        
+        .navitem {
+            padding-top: 30px;
+            font-size: 20px;
+            display: flex;
+        }
+        
+        .navitem :hover {
+            color: blue;
+            border-radius: 30px;
+        }
+        
+        .navitem li {
+            display: flex;
+        }
+        
+        .active,
+        .navitem li :hover {
+            background: black;
+            border-radius: 4px;
+        }
+        
+        .navitem li :hover .sub-menu-1 {
+            display: block;
+            position: absolute;
+            background-color: rgb(0, 100, 0);
+            margin-top: 15px;
+            margin-left: -15px;
+        }
+        
+        .sub-menu-1 {
+            display: none;
+        }
+        
+        .logo {
+            display: flex;
+        }
+        
+        .webuild {
+            color: white;
+            font-size: 18px;
+        }
+        
+        .input-tag {
+            margin-top: 30px;
+            padding: 5px;
+            border-radius: 30px;
+        }
+        
+        .btn {
+            height: 24px;
+        }
+        
+        .main {
+            padding-top: 50px;
+        }
+        
+        #abc {
+            padding-top: 8px;
+        }
+    </style>
+</head>
+
+
+<div class="navbar">
+    <div class="logo">
+        <img src="https://th.bing.com/th/id/OIP.hGLqcAgPs6pYoiq5f9tEZwHaHa?w=189&h=190&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="" width="40px" height="80px">
+        <div class="webuild">
+            <h1>WEBUILD</h1>
+
+        </div>
+    </div>
+    <div class="navitem">
+        <li>
+            <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>
+                    HOME</a>
+        </li>
+
+
+        <li><a href="about.html"><i class="fa fa user"></i> ABOUT</a></li>
+        <div class="sub-menu-1">
+            <ul>
+                <li>
+                    <a href="#">Mission</a>
+                </li>
+                <li>
+                    <a href="#">Vision</a>
+                </li>
+                <li>
+                    <a href="#">Team</a>
+                </li>
+
+
+            </ul>
+
+        </div>
+
+        <li> <a href="services.html"> SERVICES</a></li>
+
+
+        <li><a href="pages.html"> PAGES</a></li>
+
+        <li><a href="contact.html"> CONTACT</a></li>
+    </div>
+    <form action="search" class="a1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi-search" viewBox="0 0 16 16" id="abc">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+        <input type="text" class="input-tag" placeholder="Search Here..." name="search">
+
+        <button class=" btn ">SEARCH</button>
+
+
+    </form>
+
+
+
+
+</div>
+<div class=" main ">
+    <h3 style=" font-size : 60px " class=" b1 ">SOME OF OUR<span style="color:orange "> POPULAR</span> <br> DREAM PROJECTS..</h3>
+    <div class=" row4 ">
+        <div class=" col1 ">
+            <img src=" img/portfolio-1.jpeg " alt=" " width=" 500px ">
+            <h1>Project Name</h1>
+            <h3 style=" color : green "> &#10132; 123 streat,New Delhi, India</h3>
+        </div>
+        <div class=" col1 ">
+            <img src="img/portfolio-3.jpeg " alt=" " width=" 500px ">
+            <h1>Project Name</h1>
+            <h3 style=" color : green "> &#10132; 123 streat,New Delhi, India</h3>
+        </div>
+    </div>
+    <div class=" row4 ">
+        <div class=" col1 ">
+            <img src="img/portfolio-6.jpeg " alt=" " width=" 500px ">
+            <h1>Project Name</h1>
+            <h3 style=" color : green "> &#10132; 123 streat,New Delhi, India</h3>
+
+        </div>
+        <div class=" col1 ">
+            <img src="img/portfolio-5.jpeg " alt=" " width=" 500px ">
+            <h1>Project Name</h1>
+            <h3 style=" color : green "> &#10132; 123 streat,New Delhi, India</h3>
+
+        </div>
+
+    </div>
+</div>
+<div class="p1">
+    <div class=" main1 ">
+        <h3 style=" font-size : 50px " class=" b1 ">WE ARE<span style="color:orange "> PROFETIONAL & EXPERT</span> <br> WORKERS.</h3>
+
+        <div class=" row4 ">
+            <div class=" col1 ">
+                <img src="img/team-1.jpeg " alt=" " width=" 300px ">
+                <h1>ADAM PHILLIPS</h1>
+                <h3 style=" color : green "> &#10132; CEO and Founder</h3>
+
+
+
+            </div>
+            <div class=" col1 ">
+                <img src=" img/img/team-2.jpg " alt=" " width=" 300px ">
+                <h1>DYLAN ADAMS</h1>
+                <h3 style=" color : green "> &#10132; Civil Engineer</h3>
+
+
+
+            </div>
+            <div class=" col1 ">
+                <img src="img/team-3.jpeg " alt=" " width=" 300px ">
+                <h1>JHON DHOE</h1>
+                <h3 style=" color : green "> &#10132;Interior Designer </h3>
+
+
+
+            </div>
+
+
+        </div>
+        <div class=" col1 ">
+            <img src="img/team-4.jpeg " alt=" " width=" 300px ">
+            <h1>JOSH DUNN</h1>
+            <h3 style=" color : green "> &#10132;PAINTER </h3>
+
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+<div class=" main ">
+    <h3 style=" font-size : 50px " class=" b1 ">LATEST<span style="color:orange "> ARTICLES</span> <br> FROM OUR BLOG POST</h3>
+
+
+
+
+    <div class=" row4 ">
+        <div class=" col1 ">
+            <img src="img/blog-1.jpeg " alt=" " width="320px " height="200px "><br>
+            <h2 class="img1 ">REBUM DIAM CLITA <br> LOREM ERAT MAGNA <br> EST ERAT</h2>
+            <a href=" " class="buttton "> READ MORE &#10132;</a>
+
+
+        </div>
+
+        <div class=" col1 ">
+            <img src="img/blog-2.jpeg " alt=" " width="320px " height="200px "><br>
+            <h2 class="img1 ">REBUM DIAM CLITA <br> LOREM ERAT MAGNA <br> EST ERAT</h2>
+            <a href=" " class="buttton "> READ MORE &#10132;</a>
+
+
+        </div>
+        <div class=" col1 ">
+            <img src="img/blog-3.jpeg " alt=" " width="320px " height="200px "><br>
+            <h2 class="img1 ">REBUM DIAM CLITA <br> LOREM ERAT MAGNA <br> EST ERAT</h2>
+            <a href=" " class="buttton "> READ MORE &#10132;</a>
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
